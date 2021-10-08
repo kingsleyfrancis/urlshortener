@@ -1,0 +1,146 @@
+.app {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+  min-height: 95vh;
+}
+
+.app-header {
+  background: #ddd;
+  border-radius: 0 0 7px 7px;
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.app-header li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.app-header li:last-of-type {
+  margin-right: 0;
+}
+
+.app-header h2 {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.app-header a {
+  padding: 10px 15px;
+  background: rgb(45, 111, 235);
+  color: #fff;
+  text-transform: capitalize;
+  transition: all linear .2s;
+  border-radius: 7px;
+}
+
+.app-header a:hover {
+  background: rgb(27, 9, 126);
+}
+
+.app-page {
+  min-height: 70vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-page .url-form {
+  width: 600px;
+}
+
+.app-page .url-form h3 {
+  margin-bottom: 5px;
+  text-align: left;  
+}
+
+.url-form .form-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.url-form .form-content .left {
+  flex: 1 1 80%;
+  margin-right: 15px;
+}
+
+.form-content .left input {
+  padding: 15px;
+  border: 2px solid rgb(45, 111, 235);
+  display: block;
+  width: 100%;  
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.url-form .form-content .right {
+  flex: 0 0 20%;
+  box-sizing: border-box;
+}
+
+.form-content .right button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 7px;
+  color: #fff;
+  background: rgb(45, 111, 235);
+  border: 2px solid rgb(45, 111, 235);
+  font-weight: 600;
+  cursor: pointer;
+} 
+
+.err-section {
+  margin: 0;
+}
+
+.err-section p {
+  margin: 0;
+  margin: 5px 0;
+  text-align: left;
+  color: #7c0f0f;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+.shortened-url {
+  background: #ddd;
+  border-radius: 7px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;  
+}
+
+.shortened-url .item {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shortened-url .item button {
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid rgb(45, 111, 235);
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(45, 111, 235);
+}
